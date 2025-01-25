@@ -33,6 +33,10 @@ body{
     width: 76%;
     text-align: center;
 }
+.Header h1 a{
+    color: black;
+    text-decoration: none;
+}
 .Header p{
     font-size: 15%;
     justify-content: baseline;
@@ -229,4 +233,14 @@ body{
     .body{
         min-width: 280px;
     }
+}
+.Real input{
+    text-decoration: dashed;
+    size: 15px;
+    color: azure;
+
+}
+.info input{
+    background:none;
+
 }

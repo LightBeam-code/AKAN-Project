@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Generator Page</title>
     <link rel="stylesheet" href="style2.css">
     <script src="script.js"></script>
 
     <div class="Header">
-        <h1>Akan <span class="hei">Name Generator</span> 
+        <h1> <a href="index.html">AKAN</a> <span class="hei">Name Generator</span> 
         </h1>
     </div>
 
@@ -170,12 +170,13 @@
         </section>
         <section class="Form">
             <form class="Real">
-                <label for="fname">Username:</label>
+                <div class="info">
+                    label for="fname">Username:</label>
                 <input type="text" id="fname" placeholder="Username" minlength="6" maxlength="10">
                 <br>
                 
                 <label for="pass">Password:</label>
-                <input type="password" id="pass" placeholder="Username" >
+                <input type="password" id="pass" placeholder="Password retaining your info" >
                 <br>
 
                 <label for="email">Email:</label>
@@ -185,7 +186,8 @@
                 <label for="bday">Date of birth::</label>
                 <input type="date" id="bday" placeholder="Date of birth" >
                 <br>
-
+                </div>
+                
                 <div class="Gender">
                     <span class="gtitle">Gender</span>
                 </div>
@@ -195,12 +197,12 @@
                     <input type="radio" name="gender" id="Female">
                     <label for="Female">Female</label>
                 </div>
-                
+            
                 <div class="Submit">
                     <input type="submit" value="Submit Form">
                 </div>
-
-                       
+            
+                        
             </form>
         </section>
     </div>

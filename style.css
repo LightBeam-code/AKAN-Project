@@ -56,7 +56,12 @@ body {
     background: rgb(14,3,3);
     background: linear-gradient(90deg, rgba(14,3,3,0.48) 0%, rgba(9,9,9,0.48) 35%, rgba(0,9,9,0.48) 100%);
 }
-.Welcome :hover{
+.Welcome:hover{
     background-color: rgba(254, 254, 255, 0.048);
     font-style: italic;
+}
+@media(max-width: 600px){
+    .body{
+        min-width: 280px;
+    }
 }
