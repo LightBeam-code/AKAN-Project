@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira:wdth,wght@91.4,483&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+
+.Header{
+    width: auto;
+    height: 100%;
+    text-transform: uppercase;
+    padding-left: 17%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+.Header h1{
+    font-size: 27vh;
+    font-family: "Nova Square";
+    display: flex;
+    align-items: center;
+    border: 10px black solid;
+    border-radius: 10px;
+    width: 76%;
+    text-align: center;
+}
+.Header p{
+    font-size: 15%;
+    justify-content: baseline;
+}
+.Header span{ 
+    font-size: 10vh;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    overflow: visible;
+    height: 100%;
+    background-image: url(Images/G6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.Body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: rgb(14,255,3);
+    background: linear-gradient(90deg, rgba(14,255,3,0.42) 0%, rgba(9,212,9,0.42) 35%, rgba(0,170,9,0.4150035014005602) 100%);
+
+}
+.Body h1{
+    font-family: "Marcellus SC";
+    border: 5px black solid;
+    border-radius: 1px;
+    width: fit-content;
+}
+.Head{
+    align-items: center;
+    justify-content: center;
+    font-family: "Concert One";
+    font-size: xx-large;
+
+}
+.History{
+    align-items: center;
+    justify-content: center;
+    font-family: "Concert One";
+    font-size: xx-large;
+}
+.Table {
+    display: flex ;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 5px black solid;
+    border-style: dashed;
+    border-radius: 1px;
+}
+
+.Male ul {
+    list-style: none;
+    text-transform: uppercase;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    list-style-position: inside;
+    display: list-item;
+    margin: 30px;
+    padding-right: 100px;
+}
+.Male li{
+    width:  10%;
+    display: inline-block;
+}
+.Male h1{
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+}
+
+.Female ul {
+    list-style: none;
+    text-transform: uppercase;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    list-style-position: inside;
+    display: list-item;
+    margin: 30px;
+    padding-right: 100px;
+}
+.Female li{
+    width:  10%;
+    display: inline-flex;
+}
+.Female h1{
+    display: inline-flex;
+}
+
+.Days{
+    list-style: none;
+    text-transform: uppercase;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    list-style-position: inside;
+    display: list-item;
+    margin: 30px;
+    padding-left: -120px;
+}
+.Days li{
+    width:  10%;
+    display: inline-flex;
+}
+.Days h1{
+    display: inline-flex;
+}
+
