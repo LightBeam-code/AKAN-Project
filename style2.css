@@ -4,7 +4,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
 
-
+body{
+    padding: 0;
+    margin: 0;
+    overflow: visible;
+    height: 100%;
+    background-image: url(Images/G6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 .Header{
     width: auto;
     height: 100%;
@@ -33,15 +41,7 @@
     font-size: 10vh;
 }
 
-body{
-    padding: 0;
-    margin: 0;
-    overflow: visible;
-    height: 100%;
-    background-image: url(Images/G6.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-}
+
 .Body {
     display: flex;
     flex-direction: column;
@@ -50,7 +50,6 @@ body{
     text-align: center;
     background: rgb(14,255,3);
     background: linear-gradient(90deg, rgba(14,255,3,0.42) 0%, rgba(9,212,9,0.42) 35%, rgba(0,170,9,0.4150035014005602) 100%);
-
 }
 .Body h1{
     font-family: "Marcellus SC";
@@ -101,6 +100,9 @@ body{
     display: inline-block;
     align-items: center;
     justify-content: center;
+    font-family: "Lilita One";
+    font-weight: 50;
+    border: 0;
 }
 
 .Female ul {
@@ -120,6 +122,9 @@ body{
 }
 .Female h1{
     display: inline-flex;
+    border: 0;
+    font-family: "Lilita One";
+    font-weight: 50;
 }
 
 .Days{
@@ -139,5 +144,52 @@ body{
 }
 .Days h1{
     display: inline-flex;
+    font-family: "Lilita One";
+    font-weight: 50;
+    border: 0;
 }
 
+.Start{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-image: url(Images/G4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Start h1{
+    font-family: "Marcellus SC";
+    border: 5px black solid;
+    border-radius: 1px;
+    width: fit-content;
+}
+.top{
+    background: rgb(14,3,255);
+    background: linear-gradient(90deg, rgba(14,3,255,0.42) 0%, rgba(9,9,212,0.42) 35%, rgba(0,2,170,0.42) 100%);
+    background-position: center;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.top p {
+    font-family: "Concert One";
+    font-size: xx-large;
+}
+.top h2{
+    font-family: "Concert One";
+    font-size: xx-large;
+}
+.Form{
+    display: flex;
+    flex-direction: column;
+    font-family: "Concert One";
+    font-size: xx-large;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
