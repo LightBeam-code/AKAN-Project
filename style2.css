@@ -155,15 +155,17 @@ body{
     align-items: center;
     justify-content: center;
     text-align: center;
-    background-image: url(Images/G4.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 .Start h1{
     font-family: "Marcellus SC";
     border: 5px black solid;
     border-radius: 1px;
     width: fit-content;
+}
+.True{
+    background-image: url(Images/G4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .top{
     background: rgb(14,3,255);
@@ -191,5 +193,40 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
-
+    width: 100%;
+    background: rgb(14,3,255);
+    background: linear-gradient(90deg, rgba(14,3,255,0.42) 0%, rgba(9,9,212,0.42) 35%, rgba(0,2,170,0.42) 100%);
+    background-position: center;
+    background-size: cover;
+}
+.Real{
+    width: 100%;
+    max-width: 650px;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 28px;
+    margin: 0 28px;
+    border-radius: 10px;
+    box-shadow: inset -2px 2px 2px white;
+}
+.Submit input{
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    color: rgb(209, 209, 209);
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,0.4) 0%, rgba(100,70,252,0.4) 100%);
+}
+.Submit input:hover{
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,0.52) 0%, rgba(253,29,29,0.52) 50%, rgba(252,176,69,0.52) 100%);
+    color: white;
+}
+@media(max-width: 600px){
+    .body{
+        min-width: 280px;
+    }
 }

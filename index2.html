@@ -157,7 +157,7 @@
         </section>
     </div>
     <hr>
-    <div class="Form">
+    <div class="True">
         <section class="Start">
             <div class="top">
              <h1>FORM</h1>
@@ -168,11 +168,38 @@
             </div>
         </section>
         <section class="Form">
-            <form>
+            <form class="Real">
                 <label for="fname">Username:</label>
                 <input type="text" id="fname" placeholder="Username" minlength="6" maxlength="10">
                 <br>
                 
+                <label for="pass">Password:</label>
+                <input type="password" id="pass" placeholder="Username" >
+                <br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Type in your email " >
+                <br>
+
+                <label for="bday">Date of birth::</label>
+                <input type="date" id="bday" placeholder="Date of birth" >
+                <br>
+
+                <div class="Gender">
+                    <span class="gtitle">Gender</span>
+                </div>
+                <div class="Gender-category">
+                    <input type="radio" name="gender" id="Male">
+                    <label for="Male">Male</label>
+                    <input type="radio" name="gender" id="Female">
+                    <label for="Female">Female</label>
+                </div>
+                
+                <div class="Submit">
+                    <input type="submit" value="Submit Form">
+                </div>
+
+                       
             </form>
         </section>
     </div>
