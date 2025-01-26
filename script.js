@@ -1,39 +1,18 @@
+let user = document.getElementById('fname');
+let password = document.getElementById("pass");
+let email= document.getElementById("email");
+let date = document.getElementById("bday");
+let gender= document.getElementById("radio");
 
-const use ={
-    name: '',
-    UsEr:''
-}
+const btne1 = document.querySelector('submit');
+const inpute1 = document.querySelector('input');
+const liste1 = document.querySelector('ul');
 
-function addUser(_user,_password,email,_date,_gender){
+btne1.addEventListener('click', () =>{
 
-    let _user = document.getElementById("fname")
-    let _password = document.getElementById("pass")
-    let email= document.getElementById(email)
-    let _date = document.getElementById("bday")
-    let _gender= document.getElementById("radio")
-   
-     
-    
-
-    use.UsEr.push(addUser)
-
-    console.log(`User ${usered.name} has been added to the website`)
-}
-
-addUser(`name`,`password`,`email`,`date`,`gender`)
- 
-console.log(`name`,`password`,`email`,`date`,`gender`);
- 
+    const inputValue = inpute1.value;
+    liste1.innerHTML=<li>$(inputValue)</li>
 
 
-let Dayoftheweek (d) = ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) mod 7 ;
 
-alert( $('Day-of-the-week(d)'))
-
-
-let username;
-
-document.getElementById("mySubmit").onclick= function(){
-    username= document.getElementById("fname").value;
-    document.getElementById
-}
+})
