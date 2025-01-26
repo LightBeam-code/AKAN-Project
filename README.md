@@ -17,6 +17,12 @@ The author of the project is:
 Name: Wahome
 Email: lightbeam2007@gmail.com
 
+## Content
+The website contains sections such as :
+*Home page
+*Introduction
+*Form
+
 ## Link to the Live site:
 
 
