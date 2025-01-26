@@ -21,11 +21,14 @@ function addUser(_user,_password,email,_date,_gender){
 }
 
 addUser(`name`,`password`,`email`,`date`,`gender`)
+ 
+console.log(`name`,`password`,`email`,`date`,`gender`);
+ 
 
 
-Day of the week (d) = ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) mod 7
+let Dayoftheweek (d) = ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) mod 7 ;
 
-alert( $('Day of the week(d)'))
+alert( $('Day-of-the-week(d)'))
 
 
 let username;
