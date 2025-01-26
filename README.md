@@ -24,6 +24,6 @@ The website contains sections such as :
 *Form
 
 ## Link to the Live site:
-
+https://lightbeam-code.github.io/AKAN-Project/
 
 Copyright ©2025RADIANTPHOTOGRAPHY. All rights reserved.
