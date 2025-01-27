@@ -3,10 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
     <title>Generator Page</title>
     <link rel="stylesheet" href="style2.css">
-    <script src="script.js"></script>
-    <script src="scr.js"></script>
+    <script src="index.js"></script>
 
     <div class="Header">
         <h1> <a href="index.html">AKAN</a> <span class="hei">Name Generator</span> 
@@ -170,29 +171,22 @@
             </div>
         </section>
         <section class="Form">
-            <form class="Real" action="/" method="get">
+            <form class="Real" action="/" method="get" id="akanForm">
                 <div class="info">
                 <label for="fname">Username:</label>
                 <input type="text" id="fname" placeholder="Username" minlength="6" maxlength="10" value="">
                 <br>
                 
-                <label for="pass">Password:</label>
-                <input type="password" id="pass" placeholder="Password retaining your info" value="" >
-                <br>
-
-                <label for="email">Email:</label>
-                <input type="email" id="email" placeholder="Type in your email" value="" >
-                <br>
 
                 <label for="bday">Date of birth::</label>
-                <input type="date" id="bday" placeholder="Date of birth" value="" >
+                <input type="date" id="birthDate" placeholder="Date of birth" value="" >
                 <br>
                 </div>
                 
                 <div class="Gender">
                     <span class="gtitle">Gender</span>
                 </div>
-                <div class="Gender-category">
+                <div class="Gender-category" id="genderselect">
                     <input type="radio" name="gender" id="Male" value="">
                     <label for="Male">Male</label>
                     <input type="radio" name="gender" id="Female" value="">
@@ -200,11 +194,9 @@
                 </div>
             
                 <div class="Submit">
-                    <input type="submit" value="Submit Form" id="mySubmit">
+                    <button type="submit" value="Submit Form" id="mySubmit">Find Your Akan Name</button>
                 </div>
                 
-                <p class="output" id="output1"></p>
-            
                         
             </form>
         </section>

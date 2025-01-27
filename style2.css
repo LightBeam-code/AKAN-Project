@@ -218,7 +218,7 @@ body{
     border-radius: 10px;
     box-shadow: inset -2px 2px 2px white;
 }
-.Submit input{
+.Submit button{
     display: block;
     width: 100%;
     margin-top: 10px;
@@ -230,7 +230,7 @@ body{
     background: rgb(63,94,251);
     background: radial-gradient(circle, rgba(63,94,251,0.4) 0%, rgba(100,70,252,0.4) 100%);
 }
-.Submit input:hover{
+.Submit button:hover{
     background: rgb(131,58,180);
     background: linear-gradient(90deg, rgba(131,58,180,0.52) 0%, rgba(253,29,29,0.52) 50%, rgba(252,176,69,0.52) 100%);
     color: white;
